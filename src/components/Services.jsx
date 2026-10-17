@@ -25,7 +25,7 @@ function ServiceCard({ service, index }) {
           src={service.image}
           alt={service.name}
           loading="lazy"
-          className="mb-5 h-40 w-full rounded-2xl object-cover"
+          className="mb-5 h-56 w-full rounded-2xl object-cover"
         />
       ) : (
         <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-ice to-mist text-steel transition-colors group-hover:from-ink group-hover:to-steel group-hover:text-white">
